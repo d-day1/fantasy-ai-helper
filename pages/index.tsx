@@ -1,9 +1,12 @@
 import React from 'react';
-export default function Home() {
+
+const Home = () => {
   return (
-    <div style={{ padding: 20 }}>
+    <div>
       <h1>Fantasy AI Helper</h1>
-      <button onClick={() => alert("캐릭터 추가")}>캐릭터 추가</button>
+      <p>캐릭터와 세계관을 정리하는 도우미입니다.</p>
     </div>
   );
-}
+};
+
+export default Home;
