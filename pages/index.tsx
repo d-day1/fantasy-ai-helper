@@ -1,12 +1,10 @@
 import React from 'react';
 
-const Home = () => {
+export default function Home() {
   return (
     <div>
       <h1>Fantasy AI Helper</h1>
-      <p>캐릭터와 세계관을 정리하는 도우미입니다.</p>
+      <p>Welcome to the world-building tool for novel writers.</p>
     </div>
   );
-};
-
-export default Home;
+}
